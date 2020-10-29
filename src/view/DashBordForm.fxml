@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="1080.0" prefWidth="1920.0" style="-fx-background-color: Transparent;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="735.0" layoutY="90.0" prefHeight="900.0" prefWidth="450.0" style="-fx-background-radius: 60; -fx-background-color: black;">
+         <children>
+            <Pane layoutX="17.0" layoutY="18.0" prefHeight="865.0" prefWidth="417.0" style="-fx-background-color: linear-gradient(to right top, #5200ff, #8700fb, #ab0df8, #c922f5, #e236f2, #ed54f3, #f76cf4, #ff83f6, #ffa1f9, #ffbcfc, #ffd7fd, #fff0fe); -fx-background-radius: 50;">
+               <children>
+                  <Pane layoutX="93.0" layoutY="-18.0" prefHeight="45.0" prefWidth="232.0" style="-fx-background-color: black; -fx-background-radius: 80;">
+                     <children>
+                        <Pane layoutX="60.0" layoutY="19.0" prefHeight="11.0" prefWidth="86.0" style="-fx-background-color: white; -fx-background-radius: 50;" />
+                        <Circle fill="WHITE" layoutX="164.0" layoutY="25.0" radius="9.0" smooth="false" stroke="WHITE" strokeType="INSIDE" />
+                     </children>
+                  </Pane>
+                  <Label layoutX="26.0" layoutY="5.0" text="12.00 AM">
+                     <font>
+                        <Font name="Tw Cen MT Condensed Extra Bold" size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fitHeight="19.0" fitWidth="27.0" layoutX="328.0" layoutY="4.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asserts/75b0b8bc6ef823f414d8b67907ff528a.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="29.0" fitWidth="34.0" layoutX="357.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../asserts/battery_level_60px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="190.0" layoutY="814.0" pickOnBounds="true" smooth="false">
+                     <image>
+                        <Image url="@../asserts/filled_circle_100px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="90.0" layoutY="814.0" smooth="false">
+                     <image>
+                        <Image url="@../asserts/back_to_48px.png" />
+                     </image>
+                  </ImageView>
+                  <ImageView fitHeight="30.0" fitWidth="30.0" layoutX="290.0" layoutY="814.0" pickOnBounds="true" smooth="false">
+                     <image>
+                        <Image url="@../asserts/home_button_60px.png" />
+                     </image>
+                  </ImageView>
+                  <Label layoutX="168.0" layoutY="64.0" text="More Apps">
+                     <font>
+                        <Font name="Tw Cen MT Condensed Extra Bold" size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="32.0" layoutY="105.0" prefHeight="153.0" prefWidth="155.0" style="-fx-background-color: black; -fx-background-radius: 30;" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="51.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../asserts/Circled%20Menu_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#00d0ff" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <Label layoutX="86.0" layoutY="202.0" text="General" textFill="#00c5ff">
+                     <font>
+                        <Font name="Tw Cen MT Condensed" size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="232.0" layoutY="105.0" prefHeight="153.0" prefWidth="155.0" style="-fx-background-color: black; -fx-background-radius: 30;" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="51.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../asserts/settings_512px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#00ffcc" />
+                              <Stop color="WHITE" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <Label layoutX="286.0" layoutY="202.0" text="Settings" textFill="#00c5ff">
+                     <font>
+                        <Font name="Tw Cen MT Condensed" size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="32.0" layoutY="277.0" prefHeight="153.0" prefWidth="155.0" style="-fx-background-color: black; -fx-background-radius: 30;" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="51.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../asserts/whatsapp_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="#00ff48" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <Label layoutX="80.0" layoutY="374.0" text="Whatsapp" textFill="#00ff4a">
+                     <font>
+                        <Font name="Tw Cen MT Condensed" size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="232.0" layoutY="277.0" prefHeight="153.0" prefWidth="155.0" style="-fx-background-color: black; -fx-background-radius: 30;" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="51.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../asserts/vLaJ.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="#0044ff" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <Label layoutX="282.0" layoutY="372.0" text="FaceBook" textFill="#0044ff">
+                     <font>
+                        <Font name="Tw Cen MT Condensed" size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="32.0" layoutY="451.0" prefHeight="153.0" prefWidth="155.0" style="-fx-background-color: black; -fx-background-radius: 30;" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="51.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../asserts/linkedin_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="#00bbff" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <Label layoutX="84.0" layoutY="546.0" text="Linkedin" textFill="#00baff">
+                     <font>
+                        <Font name="Tw Cen MT Condensed" size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="232.0" layoutY="451.0" prefHeight="153.0" prefWidth="155.0" style="-fx-background-color: black; -fx-background-radius: 30;" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="51.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../asserts/viber_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="WHITE" offset="0.007246376811594203" />
+                              <Stop color="#9900ff" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <Label layoutX="294.0" layoutY="546.0" text="Viber" textFill="#9b00ff">
+                     <font>
+                        <Font name="Tw Cen MT Condensed" size="20.0" />
+                     </font>
+                  </Label>
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="32.0" layoutY="625.0" prefHeight="153.0" prefWidth="155.0" style="-fx-background-color: black; -fx-background-radius: 30;" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="51.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../asserts/slack_new_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="#ff7676" />
+                              <Stop color="#ff7676" offset="0.20652173913043478" />
+                              <Stop color="#00eaff" offset="0.3999715828360329" />
+                              <Stop color="#1aff00" offset="0.7560386473429954" />
+                              <Stop color="#ebff12" offset="0.8913043478260869" />
+                              <Stop color="#ebff12" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <Label layoutX="94.0" layoutY="720.0" text="Slack">
+                     <font>
+                        <Font name="Tw Cen MT Condensed" size="20.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="RED" />
+                              <Stop color="#ffa500" offset="0.5264279624893435" />
+                              <Stop color="#00ff2b" offset="0.6739130434782609" />
+                              <Stop color="#00ff2b" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                  </Label>
+                  <JFXButton buttonType="RAISED" contentDisplay="TOP" layoutX="232.0" layoutY="625.0" prefHeight="153.0" prefWidth="155.0" style="-fx-background-color: black; -fx-background-radius: 30;" text=" ">
+                     <graphic>
+                        <ImageView fitHeight="51.0" fitWidth="54.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../asserts/github_96px.png" />
+                           </image>
+                        </ImageView>
+                     </graphic>
+                     <ripplerFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop color="WHITE" />
+                              <Stop color="WHITE" offset="0.007246376811594203" />
+                              <Stop color="#00ffdd" offset="1.0" />
+                           </stops>
+                        </LinearGradient>
+                     </ripplerFill>
+                  </JFXButton>
+                  <Label layoutX="290.0" layoutY="720.0" text="GitHub" textFill="#00ffe0">
+                     <font>
+                        <Font name="Tw Cen MT Condensed" size="20.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
